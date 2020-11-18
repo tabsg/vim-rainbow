@@ -7,22 +7,20 @@
 " By default, use rainbow colors copied from gruvbox colorscheme (https://github.com/morhetz/gruvbox).
 " They are generally good for both light and dark colorschemes.
 let s:guifgs = exists('g:rainbow_guifgs')? g:rainbow_guifgs : [
-            \ '#458588',
-            \ '#b16286',
-            \ '#cc241d',
-            \ '#d65d0e',
-            \ '#458588',
-            \ '#b16286',
-            \ '#cc241d',
-            \ '#d65d0e',
-            \ '#458588',
-            \ '#b16286',
-            \ '#cc241d',
-            \ '#d65d0e',
-            \ '#458588',
-            \ '#b16286',
-            \ '#cc241d',
-            \ '#d65d0e',
+            \ '#FF9770',
+            \ '#FFE070',
+            \ '#AF2BBF',
+            \ '#8170FF',
+            \ '#E070FF',
+            \ '#70BFFF',
+            \ '#FF70A7',
+            \ '#FF9770',
+            \ '#FFE070',
+            \ '#AF2BBF',
+            \ '#8170FF',
+            \ '#E070FF',
+            \ '#70BFFF',
+            \ '#FF70A7',
             \ ]
 
 let s:ctermfgs = exists('g:rainbow_ctermfgs')? g:rainbow_ctermfgs : [
